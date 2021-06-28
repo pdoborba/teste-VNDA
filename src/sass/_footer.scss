@@ -1,0 +1,128 @@
+
+.divider {
+  text-align: center;
+  padding: 20vh 0vh 10vh 0vh;
+}
+
+.footer-content {
+  margin-top: 85px;
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-menu {
+    font-size: 115%;
+    display: block;
+    margin-bottom: 50px;
+    cursor: pointer;
+  }
+
+  .footer-content{
+    color: #fff;
+  }
+
+  .footer-lists {
+    display: flex;
+  }
+
+  .footer-list {
+    display: flex;
+    flex-direction: column;
+
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+
+    .footer-links {
+      display: flex;
+      align-items: center;
+      margin-bottom: 5px;
+  
+      &:hover {
+        color: #44d1df;
+      }
+    }
+  }
+
+  .footer-mid {
+    width: 40%;
+    margin: 0 auto;
+
+    @media (max-width: 768px) {
+      margin: 50px 0 65px 0;
+      width: 90%;
+    }
+
+    .footer-form {
+      position: relative;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+
+      @media (max-width: 768px) {
+        flex-direction: column;
+      }
+
+      .email {
+        width: 70%;
+        border: none;
+        background-color: transparent;
+
+        @media (max-width: 768px) {
+          width: 100%;
+          margin-bottom: 15px;
+          text-align: center
+        }
+      }
+  
+      .btn-send {
+        border: none;
+        cursor: pointer;
+        background-color: transparent;
+  
+        &:hover {
+          color: #44d1df;
+        }
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: -12px;
+        display: block;
+        width: 100%;
+        border-bottom: 1px solid #666666;
+        z-index: 1;
+      }
+    }
+  }
+
+  .footer-links .media-icon:last-child {
+    display: none;
+  }
+
+  .footer-links:hover .media-icon:first-child {
+    display: none;
+  }
+
+  .footer-links:hover .media-icon:last-child {
+    display: inline;
+  }  
+
+  .media-icon {
+    width: 19px;
+    margin-right: 5px;
+  }
+}
+
+.cnpj {
+  text-align: center;
+  padding: 100px 0 50px 0;
+  color: #fff
+}
