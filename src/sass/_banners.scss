@@ -20,30 +20,16 @@
     .text-introduction {
       margin-top: -100px;
       position: relative;
-      color: #730517;
+      color: grey;
+
 
       .title-introduction{
-        color: #181818;
+        color: #44d1df;
       }
 
       @media (max-width: 768px) {
         margin-top: 0;
         margin-bottom: 50px;
-      }
-    }
-  
-    .arrow {
-      width: 112px;
-      height: 112px;
-      position: absolute;
-      bottom: -230px;
-      cursor: pointer;
-      transform: rotateZ(270deg);
-      animation: pulse 0.7s infinite;
-      animation-direction: alternate;
-  
-      @media (max-width: 768px) {
-        display: none;
       }
     }
 

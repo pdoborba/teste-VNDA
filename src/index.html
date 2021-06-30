@@ -15,11 +15,9 @@
     <div class="container">
       <div class="header-content">
         <div class="logo">
-          <h1>
             <a href="#">
               <img class="logo-img" src="../dist/img/1.png" alt="logo">
             </a>
-          </h1>
         </div>
   
         <div class="menu-section">
@@ -155,11 +153,11 @@
             <img class="dressmaker-img" src="../dist/img/pexels-monstera-6311236.jpg" alt="Men">
           </div>
           <div class="text-introduction"> 
-            <p>Novidades</p>
+            <p class="white">Novidades</p>
             <h2 class="title-introduction">
               Se liga nos novos sneakers que chegaram!
             </h2>
-            <p>
+            <p class="white">
               Ahhh e só para avisar que as unidades são limitadissimas, então corre e garante o teu!
             </p>
 
@@ -168,25 +166,21 @@
             </button>
           </div>
         </div>
-        
-        <div class="swiper-container swiper-container-2">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <img src="../dist/img/tenis1.jpg" alt="sneakers1">
-            </div>
-            <div class="swiper-slide">
-              <img src="../dist/img/tenis2.jpg" alt="sneakers2">
-            </div>
-            <div class="swiper-slide">
-              <img src="../dist/img/tenis3.jpg" alt="sneakers3">
-            </div>
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <img src="../dist/img/tenis1.jpg" style="width:100%">
           </div>
-      
-          <div class="swiper-pagination swiper-pagination-2"></div>
-      
-          <div class="swiper-button-next swiper-button-next-2"></div>
-          <div class="swiper-button-prev swiper-button-prev-2"></div>
-        </div>
+        
+          <div class="mySlides fade">
+            <img src="../dist/img/tenis2.jpg" style="width:100%">
+          </div>
+        
+          <div class="mySlides fade">
+            <img src="../dist/img/tenis3.jpg" style="width:100%">
+          </div>
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
       </div>
     </section>
 

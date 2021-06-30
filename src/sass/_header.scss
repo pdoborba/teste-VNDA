@@ -39,7 +39,7 @@
         border-radius: 5px;
         transition-duration: 0.3s;
         letter-spacing: 1px;
-
+        color: white;
         &:hover {
           color: #44d1df;
         }
@@ -97,7 +97,7 @@
       height: 26px;
   
       @media (max-width: 400px) {
-        width: 20px;
+        width: 5vh;
       }
   
       .one, .two, .three {
@@ -130,9 +130,9 @@
           text-align: center;
   
           .nav-links {
-            font-size: 20px;
-            line-height: 4rem;
-            margin-left: 0;
+            font-size: 2vh;
+            line-height: 3rem;
+            margin-left: 37vh;
           }
         }
       }

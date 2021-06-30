@@ -3,6 +3,13 @@
   text-align: center;
   padding: 20vh 0vh 10vh 0vh;
 }
+.logo{
+  img{
+    width: 40%;
+    @media (max-width: 400px) {
+      width: 80%;
+  }
+}
 
 .footer-content {
   margin-top: 85px;
@@ -43,6 +50,7 @@
       display: flex;
       align-items: center;
       margin-bottom: 5px;
+      color: white;
   
       &:hover {
         color: #44d1df;
@@ -77,7 +85,7 @@
         @media (max-width: 768px) {
           width: 100%;
           margin-bottom: 15px;
-          text-align: center
+          text-align: center;
         }
       }
   
@@ -85,6 +93,7 @@
         border: none;
         cursor: pointer;
         background-color: transparent;
+        color: grey;
   
         &:hover {
           color: #44d1df;
